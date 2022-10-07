@@ -46,5 +46,3 @@ jobs:
         file: ./Dockerfile
         push: true
         tags: ${{ secrets.DOCKER_HUB_USERNAME }}/${{ env.IMAGE }}:v2.1.${{ github.run_number }}
-
-
